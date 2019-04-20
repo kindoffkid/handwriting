@@ -12,3 +12,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.wrapper {
+  position: relative;
+  width: 250px;
+  height: 100px;
+}
+
+.canvas {
+  background: orange;
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 15px;
+  height: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
